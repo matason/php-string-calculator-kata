@@ -1,0 +1,5 @@
+A starting point, using PHP, for the String Calculator Kata - http://nimblepros.com/media/36628/string%20calculator%20kata.pdf
+
+Tests can be run with PHPUnit - https://github.com/sebastianbergmann/phpunit/
+
+$ phpunit --colors StringCalculatorTest

@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * String calculator tests.
+ */
+
 require_once 'StringCalculator.php';
 
 class StringCalculatorTest extends PHPUnit_Framework_TestCase {
@@ -10,6 +15,6 @@ class StringCalculatorTest extends PHPUnit_Framework_TestCase {
   }
 
   public function testEmptyStringReturnsZero() {
-    $this->assertSame(0, $this->sc->add(''), 'An empty string returns zero.'); 
+    $this->assertSame(0, $this->sc->add(''), 'An empty string returns zero.');
   }
 }
