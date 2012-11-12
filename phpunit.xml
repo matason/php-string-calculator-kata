@@ -1,0 +1,7 @@
+<phpunit colors="true">
+  <testsuites>
+    <testsuite name="String Calculate Kata Test Suite">
+      <file>StringCalculatorTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
