@@ -8,7 +8,7 @@
  */
 
 class StringCalculator {
-  public function add($input) {
+  public function add() {
   	
   }
 }

@@ -25,18 +25,19 @@ class StringCalculatorTest extends PHPUnit_Framework_TestCase {
   	// $this->assertSame(mixed $expected, mixed $actual[, string $message = '']);
     $this->assertSame(0, $this->stringAdd(''), 'An empty string returns zero.');
   }
+  
   // 2. Will 1 return 1?
-  public function testSingleInputReturnsItself() {
-    $this->assertSame(1, $this->stringAdd('1'), 'An empty string returns zero.');
-  }
-  // 4. Will 1+2 return 3?
-  public function testInputsReturnsSum() {
-    $this->assertSame(3, $this->stringAdd('0,1,2'), 'An empty string returns zero.');
-  }
-  // 3. We dont want numbers too large, will outputs over 1000 return 'I cant count that high!'?
-  public function testInputNumerInRange() {
-    $this->assertSame('I cant count that high!', $this->stringAdd('1000,1'), 'An empty string returns zero.');
-  }
+  //public function testSingleInputReturnsItself() {
+    //$this->assertSame(1, $this->stringAdd('1'), 'An empty string returns zero.');
+  //}
+
+  // 3. Will 1+2 return 3?
+  //public function testInputsReturnsSum() {
+    //$this->assertSame(3, $this->stringAdd('0,1,2'), 'An empty string returns zero.');
+  //}
+
+  // 4. We dont want numbers too large, will outputs over 1000 return 'I cant count that high!'?
+
   // 5. Will an unknown number of inputs such as '1,1,3,5,10' return their sum?
 
   // 6. Will mixed delimiters such as 1\n2,3 still return as sum?
