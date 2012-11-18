@@ -9,5 +9,6 @@
 
 class StringCalculator {
   public function add() {
+  	
   }
 }
